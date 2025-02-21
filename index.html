@@ -3,121 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jan Londso</title>
-    <style>
-
-        * {
-            box-sizing: border-box;
-            padding: 0;
-        }
-
-        body {
-            width: 80%;
-            margin: 0 auto;
-            color: #333;
-            font-family: Helvetica, Arial, sans-serif;
-            font-size: 16px;
-        }
-
-
-        article {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            /* min-height: 100%; */
-            /* display: grid; */
-            /* grid-template-rows: auto 1fr auto; */
-          }
-          
-          footer {
-            display: flex;
-            width: 100%;
-            justify-content: center;
-            padding: 5px;
-            background-color: #45a1ff;
-            color: #fff;
-          }
-          hr {
-            margin-top: 80px;
-            border: 1px solid gray;
-            width: 100%;
-          }
-    </style>
+    <title>Jan Lõndso Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <article>
-    <h1>Jan Lõndso</h1>
-    <img src="./images/jan.jpg" alt="Image of Jan" style="width: 150px; border-radius: 50%;" />
 
-    <hr />
+    <div id="page">
 
-    <!--Summary or objective statement  -->
+    <header id="header">
+        <div class="container-1">
+            <div class="box-1">
+                <div class="logo">
+                    <h2>Jan Lõndso</h2>
+                </div>
+            </div>
+            <div class="box-1">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact"><button class="btn-secondary">Contact Me</button></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-    <h2>Summary</h2>
-    <h3>Creative and detail-oriented web developer with a passion for crafting engaging, responsive websites and web applications.</h3>
-    <p>Experienced in front-end and back-end development, with a strong command of JavaScript, HTML, CSS, and popular frameworks like React and Node.js.</p>
-        <p>Adept at collaborating with clients to understand their needs, 
-        delivering tailored solutions that drive user engagement and business growth. 
-        Committed to continuous learning and staying updated with industry trends to provide innovative and efficient digital experiences.</p>
+    <!-- Hero section -->
+    <section id="hero"> 
+        <div class="container-2">
+            <div class="box-2">
+                <div class="hero-text">
+                    <h1>I'm a Web Developer</h1>
+                    <h3 class="h-text">I craft dynamic, user-friendly websites
+                        that bring your ideas to life. From responsive design to seamless
+                        functionality the outcome will enhance your website.
+                        Let's create together!
+                    </h3>
+                    <div class="btn-group">
+                        <button class="btn-primary">Read More</button>
+                        <button class="btn-secondary">My Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="hero-img">
+                    <img src="./images/img_5.jpeg" alt="My Photo">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <hr />
+    <!-- About me section -->
+    <section id="about-me" class="bg-green">
+        <h2>About Me</h2>
+        <hr class="dotted-line">
+        <div class="container-3">  
+            <div class="box-3">
+                <div class="jan-img">
+                    <img class="jan-image" src="./images/my_photo.jpg" alt="My Photo">
+                </div>
+            </div>
+            <div class="box-3">
 
-        <!-- Education (list degrees, schools, and dates) -->
-    <h2>Education</h2>
-    <ul>
-        <li>Business scool of Economics, Logistics Managament - (2004-2008)</li>
-        <li>Udemy course</li>
-        <li>Codecademy course</li>
-    </ul>
-    <!-- Work experience (list job titles, employers, dates, and responsibilities)
- -->
-    <hr />
+                <div class="about-me-text">
 
-    <h2>Work Experience</h2>
-    <ul>
-        <li>1998-2000 ESS Security AS, Position: Security Guard.</li>
-        <li>2000-2007 Peter Transport OY, Position name: driver, forwarder.</li>
-        <li>2008-.... , Jantrans OY, Position: Owner of the company, transportation services.</li>
-    </ul>
+                    <h3>Hi, my name is Jan</h3>
 
-    
-    <hr />
+                        <div id="info">
+                            <p>I have always been passionate about design and 
+                        creation. My curriculum consists of several web development courses during 
+                        which I have worked on various projects.
+                        Therefore, that experience can help me to create and 
+                        develop your new website.</p>
+                        </div>
 
-    <!-- Skills (list relevant skills or areas of expertise)  -->
-    <h2>Scills</h2>
-    <il>
-        <li>Communication skills, level 4/5</li>
-        <li>IT scills, WEB Development, level 4/5</li>
-        <li>Organizational skills, 4/5</li>
-        <li>Languages: Estonian, russian, english.</li>
-    </il>
-    <!-- Awards, certifications, or other achievements (list any relevant awards, certifications, or other accomplishments) -->
-    <hr />
-    <h2>Contact with me</h2>
-    <p>Or look at my hobbies.</p>
-    <ul>
-        <li>
-            <a href="contact.html">Contact</a>
-        </li>
-        <li>
-            <a href="hobbies.html">Hobbies</a>
-        </li>
-    </ul>
+                        <div id="more-info">
+                            <p>Currently, I am enhancing my programming skills and obtaining
+                                the necessary qualifications to offer even more professional and 
+                                interactive web solutions.</p>
+                            <h4>My hobbies</h4>
+                            <ul class="list">
+                                <li><p>Web Development</p></li>
+                                <li><p>Photography</p></li>
+                                <li><p>Karate</p></li>
+                                <li><p>Travelling</p></li>
+                            </ul>
+                        </div>
 
+                        <button id="read-more" class="btn-primary">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>© 2024 Jan Lõndso</p>
+        <!-- Section skills-->
+
+        <section id="skills">
+            
+            <h2>Skills</h2>
+            <hr class="dotted-line">
+
+        <div class="container-4">
+           
+            <div class="box-4">
+                    <div class="circle bg-light-green">
+                        <h3>HTML</h3>
+                    </div>
+            </div>
+            <div class="box-4">
+                <div class="circle bg-light-green">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="box-4">    
+                    <div class="circle bg-light-green">
+                        <h3>JavaScript</h3>
+                    </div>
+            </div>
+            <div class="box-4">
+                    <div class="circle bg-light-green">
+                        <h3>Figma</h3>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Section My Projects -->
+    <section id="projects" class="bg-green">
+        <h2>My Projects</h2>
+        <hr class="dotted-line">
+        <div class="container-5 bg-green">
+            <div class="box-5">
+                <h3>My Portfolio Website</h3>
+                <img src="./images/project_portfolio.png" alt="Portfolio Website screen image">
+                <p>This is my first real project.</p>
+                <p>Following languages were used:</p>
+               <ul class="list">
+                    <li>HTML
+                    </li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+               </ul>
+            </div>
+
+            <div class="box-5">
+                <h3>Kodurajaja Website</h3>
+                <img src="./images/img_7.jpeg" alt="Portfolio Website screen image">
+                <p>In progress...</p>
+                <p>Following languages will be used:</p>
+               <ul class="list">
+                    <li>HTML
+                    </li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+               </ul>
+            </div>
+        </div>
+    </section>
+
+<!-------------- Section Contact ---------------->
+    <section id="contact">
+        <div class="container-6">
+            <div class="box-6">
+                <h2>Contact Me</h2>
+                <hr class="dotted-line">
+                <h3>Jan Lõndso - Web Developer</h3>
+                <p>Email: janlondso@gmail.com</p>
+                <h5>Looking forward to future cooperation!</h5>
+            </div>
+            <div class="box-6">
+                <img src="./images/img_6.png" alt="Contact image">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-green">
+        <h5>Website powered by <em>Jan Lõndso</em>, 2025</h5>
     </footer>
-
-</article>
-
-
-    <!-- Add your website to your GitHub to start building your portfolio. -->
-
-    <!-- Publish your website using GitHub pages and share it here (in the Q&A) with other students. -->
-
-    <!-- Comment and make suggestions to other students' projects. -->
-
+</div>
+    <script src="script.js"></script>
 
 </body>
 </html>
